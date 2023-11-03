@@ -1,0 +1,48 @@
+newmtl lambert65
+Ka 0.5019608 0.5019608 0.5019608
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka lambert65.png
+map_Kd lambert65.png
+map_d lambert65.png
+newmtl mt_door
+Ka 0.5019608 0.5019608 0.5019608
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka mt_door.png
+map_Kd mt_door.png
+map_d mt_door.png
+newmtl mt_entrance
+Ka 0.5019608 0.5019608 0.5019608
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka mt_entrance.png
+map_Kd mt_entrance.png
+map_d mt_entrance.png
+newmtl mt_floor
+Ka 0.5019608 0.5019608 0.5019608
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka mt_floor.png
+map_Kd mt_floor.png
+map_d mt_floor.png
+newmtl mt_wall
+Ka 0.5019608 0.5019608 0.5019608
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka mt_wall.png
+map_Kd mt_wall.png
+map_d mt_wall.png
+newmtl mt_wall2
+Ka 0.5019608 0.5019608 0.5019608
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka mt_wall2.png
+map_Kd mt_wall2.png
+map_d mt_wall2.png
