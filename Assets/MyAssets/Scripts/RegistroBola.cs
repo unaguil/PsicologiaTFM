@@ -14,9 +14,10 @@ public class RegistroBola : MonoBehaviour
         if (collision.gameObject.layer == this.gameObject.layer)
         {
             contador++;
-            Debug.Log("Color: "+this.gameObject.layer+" Canasta anotada. Contador: " + contador);
+            Debug.Log("Color: "+ LayerMask.LayerToName(this.gameObject.layer) + " Canasta anotada. Contador: " + contador);
             Destroy(collision.gameObject);
         }
+        
 
     }
 
