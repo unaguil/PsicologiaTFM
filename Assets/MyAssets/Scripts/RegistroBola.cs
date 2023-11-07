@@ -6,14 +6,15 @@ public class RegistroBola : MonoBehaviour
 {
 
     public static int contador = 0;
-    public string layer;
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer(layer))
+        Debug.Log(this.gameObject.layer +" "+ collision.gameObject.layer);
+
+        if (collision.gameObject.layer == this.gameObject.layer)
         {
             contador++;
-            Debug.Log("Color: "+layer+" Canasta anotada. Contador: " + contador);
+            Debug.Log("Color: "+this.gameObject.layer+" Canasta anotada. Contador: " + contador);
             Destroy(collision.gameObject);
         }
 
