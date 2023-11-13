@@ -14,9 +14,8 @@ GameObject:
   - component: {fileID: 1026489807141041290}
   - component: {fileID: 5493215201456716908}
   - component: {fileID: 2658249604561587095}
-  - component: {fileID: 8323163295380563380}
-  m_Layer: 9
-  m_Name: Bola azul
+  m_Layer: 7
+  m_Name: Bola roja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b4cf0b332c0668419e3acd9509e6af1, type: 2}
+  - {fileID: 2100000, guid: b3d78e46d9027d145b01405279c91365, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -188,19 +187,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8323163295380563380}
-        m_TargetAssemblyTypeName: BolaTrucada, Assembly-CSharp
-        m_MethodName: Desviar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -299,18 +286,3 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &8323163295380563380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3334230918496169748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43dddd28c047d5142a4f94882505ca1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fuerzaMin: -150
-  fuerzaMax: 150
-  fuerza: {x: 50, y: 50, z: 50}

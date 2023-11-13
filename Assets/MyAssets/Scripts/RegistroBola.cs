@@ -16,6 +16,11 @@ public class RegistroBola : MonoBehaviour
             contador++;
             Debug.Log("Color: "+ LayerMask.LayerToName(this.gameObject.layer) + " Canasta anotada. Contador: " + contador);
             Destroy(collision.gameObject);
+
+            if (contador == 9)
+            {
+                Debug.Log("Se han metido todas las pelotas");
+            }
         }
         
 
