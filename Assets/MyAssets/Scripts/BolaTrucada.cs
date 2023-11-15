@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class BolaTrucada : MonoBehaviour
 {
-
-    public float fuerzaMin;
-    public float fuerzaMax;
-    public Vector3 fuerza;
+    public static float fuerzaMin = -150;
+    public static float fuerzaMax = 150;
+    public static Vector3 fuerza;
+    //public float fuerzaMin;
+    //public float fuerzaMax;
+    //public Vector3 fuerza;
 
     public void Prueba()
     {

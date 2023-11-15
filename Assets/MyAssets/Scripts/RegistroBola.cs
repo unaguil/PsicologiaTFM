@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RegistroBola : MonoBehaviour
 {
-
     public static int contador = 0;
 
     private void OnCollisionEnter(Collision collision)
@@ -20,6 +20,7 @@ public class RegistroBola : MonoBehaviour
             if (contador == 9)
             {
                 Debug.Log("Se han metido todas las pelotas");
+                StartCoroutine(CambiarEscena.EsperarYCambiarDeEscena("Situacion1"));
             }
         }
         

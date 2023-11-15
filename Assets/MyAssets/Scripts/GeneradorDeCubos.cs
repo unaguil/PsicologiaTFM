@@ -7,6 +7,7 @@ public class GeneradorDeCubos : MonoBehaviour
     public GameObject cuboPrefab;
     public static int contadorRojo = 0;
     public static int numBolas = 0;
+    public GameObject scriptGameObject;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -22,6 +23,23 @@ public class GeneradorDeCubos : MonoBehaviour
             numBolas++;
             Debug.Log("Bola: " + numBolas);
             Destroy(collision.gameObject);
+            if (numBolas == 2)
+            {
+                if (scriptGameObject != null)
+                {
+                    var scriptComponent = scriptGameObject.GetComponent<BolaTrucada>();
+                    if (scriptComponent == null)
+                    {
+                        scriptComponent = collision.gameObject.AddComponent<BolaTrucada>();
+                        Debug.Log("Se ha adjuntado el script " + scriptGameObject.GetType() + " al objeto " + collision.gameObject.name);
+                    }
+                    else
+                    {
+                        Debug.Log("El objeto " + collision.gameObject.name + " ya tiene el script adjunto");
+                    }
+                }
+               
+            }
         }
 
     }
