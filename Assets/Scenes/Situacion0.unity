@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -634,6 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cuboPrefab: {fileID: 1023332355350001075, guid: 06ddffdd5d9ed1c41861d7f3c4ed44b3, type: 3}
+  numBolas: 0
 --- !u!65 &598431844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1911,6 +1912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cuboPrefab: {fileID: 1023332355350001075, guid: 06ddffdd5d9ed1c41861d7f3c4ed44b3, type: 3}
+  numBolas: 0
 --- !u!114 &1442743926
 MonoBehaviour:
   m_ObjectHideFlags: 0

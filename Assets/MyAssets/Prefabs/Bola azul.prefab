@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1026489807141041290}
   - component: {fileID: 5493215201456716908}
   - component: {fileID: 2658249604561587095}
+  - component: {fileID: 8137235157483322930}
   m_Layer: 9
   m_Name: Bola azul
   m_TagString: Untagged
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8137235157483322930}
         m_TargetAssemblyTypeName: BolaTrucada, Assembly-CSharp
         m_MethodName: Desviar
         m_Mode: 1
@@ -298,3 +299,18 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &8137235157483322930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334230918496169748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43dddd28c047d5142a4f94882505ca1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuerzaMin: -1.5
+  fuerzaMax: 1.5
+  fuerza: {x: 50, y: 50, z: 50}
