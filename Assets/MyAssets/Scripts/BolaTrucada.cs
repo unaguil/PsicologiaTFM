@@ -6,7 +6,10 @@ public class BolaTrucada : MonoBehaviour
 {
     public float fuerzaMin;
     public float fuerzaMax;
+    public float fuerzaIntermediaMin;
+    public float fuerzaIntermediaMax;
     public Vector3 fuerza;
+    public GameObject tapa;
 
     public void Prueba()
     {
@@ -19,20 +22,21 @@ public class BolaTrucada : MonoBehaviour
         GeneradorDeCubos var = FindObjectOfType<GeneradorDeCubos>();
         if (var != null)
         {
-            Debug.Log("Funciona");
+            //Debug.Log("Funciona");
             int cont = var.numBolas;
             if (cont >= 4)
             {
                 Debug.Log("Funciona");
                 Vector3 vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));
+                while (vectorAleatorio.x<fuerzaIntermediaMax && vectorAleatorio.x > fuerzaIntermediaMin || vectorAleatorio.y < fuerzaIntermediaMax && vectorAleatorio.y > fuerzaIntermediaMin)
+                {
+                    vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));
+                }
                 gameObject.GetComponent<Rigidbody>().AddForce(vectorAleatorio, ForceMode.Impulse);
                 Debug.Log(gameObject.GetComponent<Rigidbody>().GetAccumulatedForce());
 
-                Collider miCollider = GameObject.Find("tapa").GetComponent<Collider>();
-                if (miCollider == null)
-                {
-                    miCollider.enabled = true;
-                }
+                //tapa.SetActive(true);
+               
             }
         }
 
