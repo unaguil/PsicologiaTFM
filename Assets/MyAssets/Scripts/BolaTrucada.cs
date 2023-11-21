@@ -21,12 +21,18 @@ public class BolaTrucada : MonoBehaviour
         {
             Debug.Log("Funciona");
             int cont = var.numBolas;
-            if (cont >= 2)
+            if (cont >= 4)
             {
                 Debug.Log("Funciona");
                 Vector3 vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));
                 gameObject.GetComponent<Rigidbody>().AddForce(vectorAleatorio, ForceMode.Impulse);
                 Debug.Log(gameObject.GetComponent<Rigidbody>().GetAccumulatedForce());
+
+                Collider miCollider = GameObject.Find("tapa").GetComponent<Collider>();
+                if (miCollider == null)
+                {
+                    miCollider.enabled = true;
+                }
             }
         }
 
