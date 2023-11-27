@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Interfaz : MonoBehaviour
 {
-    private static string registro;
+    public static string registro;
 
     public GameObject preguntaActual;
     public GameObject siguientePregunta;
 
     private float valorSlider;
 
-    private void Awake()
+    public void ConfiguracionInicial()
     {
         string nombre = SceneManager.GetActiveScene().name;
         registro = nombre+";";
@@ -27,6 +27,7 @@ public class Interfaz : MonoBehaviour
     public void RespuestaBoton(string s)
     {
         registro = registro + s + ";";
+        Debug.Log(registro);
         preguntaActual.SetActive(false);
         if (siguientePregunta != null)
         {
@@ -40,13 +41,15 @@ public class Interfaz : MonoBehaviour
     public void RespuestaSlider(float f)
     {
         valorSlider = f;
-        Debug.Log(valorSlider);
+       // Debug.Log(valorSlider);
     }
 
     public void ConfirmarSlider()
     {
         registro = registro + valorSlider.ToString("0.00") + ";";
+        Debug.Log(registro);
         preguntaActual.SetActive(false);
+       // Debug.Log(siguientePregunta);
         if (siguientePregunta != null)
         {
             siguientePregunta.SetActive(true);
