@@ -7,10 +7,9 @@ public class Estadisticas
 
     private static List<string> estadisticas = new List<string>();
     
-    public static string prueba //Property
+    public static void NuevaEstadistica(string s)
     {
-        get;
-        set;
+        estadisticas.Add(s);
     }
 
 
