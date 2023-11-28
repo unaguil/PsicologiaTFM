@@ -738,6 +738,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350553569}
   m_CullTransparentMesh: 1
+--- !u!1 &386175629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386175632}
+  - component: {fileID: 386175631}
+  m_Layer: 0
+  m_Name: Scripter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &386175631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386175629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76c92b2acf14da47a96d0860d23198c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &386175632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386175629}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.17623594, y: 1.2639483, z: 12.352557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &416898789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7064380299406658091, guid: 954160cac7c382f40a37c1253842485b, type: 3}
@@ -3110,7 +3154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341582219289459949, guid: a89b618f1357b1648bb475956306268d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.71
+      value: 0.707
       objectReference: {fileID: 0}
     - target: {fileID: 7341582219289459949, guid: a89b618f1357b1648bb475956306268d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5790,6 +5834,7 @@ MeshFilter:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 386175632}
   - {fileID: 754127529}
   - {fileID: 1070645564}
   - {fileID: 729692661}

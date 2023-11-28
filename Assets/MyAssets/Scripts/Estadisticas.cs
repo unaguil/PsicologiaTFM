@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
+using System;
 
 public class Estadisticas
 {
@@ -11,6 +13,29 @@ public class Estadisticas
     {
         estadisticas.Add(s);
     }
+
+    public static void GuardarEstadisticas()
+    {
+        string path = "data/estadisticas.csv";
+        StreamWriter sr = new StreamWriter(path, true);
+        foreach (string s in estadisticas)
+        {
+            sr.Write(s);
+        }
+        sr.Write("\n");
+        sr.Close();
+    }
+
+    public static void GuardarFechaHora()
+    {
+        Debug.Log("Guardar fecha hora");
+        String fecha = DateTime.Now.ToString("dd/MM/yyyy");
+        String hora = DateTime.Now.ToString("HH:mm");
+        estadisticas.Add(fecha+";");
+        estadisticas.Add(hora+";");
+    }
+
+
 
 
 }
