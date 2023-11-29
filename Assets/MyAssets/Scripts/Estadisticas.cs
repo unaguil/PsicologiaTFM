@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using System.Text;
 
 public class Estadisticas
 {
@@ -16,8 +17,10 @@ public class Estadisticas
 
     public static void GuardarEstadisticas()
     {
-        string path = "data/estadisticas.csv";
-        StreamWriter sr = new StreamWriter(path, true);
+        //string path = "data/estadisticas.csv";
+        String path = Application.persistentDataPath+"TFMApp/estadisticas.csv";
+        Encoding encoding = Encoding.Unicode;
+        StreamWriter sr = new StreamWriter(path, true, encoding);
         foreach (string s in estadisticas)
         {
             sr.Write(s);
