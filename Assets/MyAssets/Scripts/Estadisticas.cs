@@ -17,8 +17,8 @@ public class Estadisticas
 
     public static void GuardarEstadisticas()
     {
-        //string path = "data/estadisticas.csv";
-        String path = Application.persistentDataPath+"TFMApp/estadisticas.csv";
+       // string path = "data/estadisticas.csv";
+        string path = Application.persistentDataPath+"/estadisticas.csv";
         Encoding encoding = Encoding.Unicode;
         StreamWriter sr = new StreamWriter(path, true, encoding);
         foreach (string s in estadisticas)
@@ -31,6 +31,7 @@ public class Estadisticas
 
     public static void GuardarFechaHora()
     {
+
         Debug.Log("Guardar fecha hora");
         String fecha = DateTime.Now.ToString("dd/MM/yyyy");
         String hora = DateTime.Now.ToString("HH:mm");

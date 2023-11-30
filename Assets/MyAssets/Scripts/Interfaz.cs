@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -10,6 +13,7 @@ public class Interfaz : MonoBehaviour
 
     public GameObject preguntaActual;
     public GameObject siguientePregunta;
+    public TMP_Text text;
 
     private float valorSlider;
 
@@ -34,7 +38,14 @@ public class Interfaz : MonoBehaviour
             siguientePregunta.SetActive(true);
         } else
         {
-            GuardarRegistro();
+            try
+            {
+                GuardarRegistro();
+            } catch (Exception e)
+            {
+                text.text = e.Message;
+            }
+            
         }
     }
 
