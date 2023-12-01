@@ -23,11 +23,6 @@ public class Interfaz : MonoBehaviour
         registro = nombre+";";
     }
 
-    public void Respuesta1(BaseEventData eventData)
-    {
-        Debug.Log(eventData.selectedObject);
-    }
-
     public void RespuestaBoton(string s)
     {
         registro = registro + s + ";";
@@ -45,7 +40,8 @@ public class Interfaz : MonoBehaviour
             {
                 text.text = e.Message;
             }
-            
+            CambiarEscena.EsperarYCambiarDeEscena("Situacion2");
+
         }
     }
 
@@ -68,6 +64,7 @@ public class Interfaz : MonoBehaviour
         else
         {
             GuardarRegistro();
+            CambiarEscena.EsperarYCambiarDeEscena("Situacion2");
         }
     }
 

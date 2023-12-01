@@ -7,6 +7,8 @@ public class GeneradorDeCubos : MonoBehaviour
     public GameObject cuboPrefab;
     public static int contadorRojo = 0;
     public int numBolas = 0;
+    public GameObject canvas;
+    public GameObject tapa;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -22,6 +24,12 @@ public class GeneradorDeCubos : MonoBehaviour
             numBolas++;
             Debug.Log("Bola: " + numBolas);
             Destroy(collision.gameObject);
+            if (numBolas >= 1)
+            {
+                Debug.Log("Se va a activar el temporizador");
+                tapa.SetActive(true); //No funciona
+                StartCoroutine(ActivarInterfazRetardado()); //Por qué hay que hacer aquí startCoroutine y otras veces no?
+            }
         }
 
     }
@@ -30,5 +38,13 @@ public class GeneradorDeCubos : MonoBehaviour
     {
         Debug.Log("Funciona.");
         GameObject nuevoCubo = Instantiate(cuboPrefab);
+    }
+
+    IEnumerator ActivarInterfazRetardado()
+    {
+        Debug.Log("Temporizador activado");
+        yield return new WaitForSeconds(10);
+        canvas.SetActive(true);
+
     }
 }

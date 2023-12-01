@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -613,6 +613,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -679,6 +687,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     - target: {fileID: 8323163295380563380, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: fuerza.x
       value: 50
@@ -1204,7 +1220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3229,6 +3245,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3624,6 +3648,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5513,6 +5545,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6147,7 +6187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1205089966
 Transform:
   m_ObjectHideFlags: 0
@@ -6392,6 +6432,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7097,12 +7145,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: fuerzaIntermediaMax
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: fuerzaIntermediaMin
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8359,6 +8415,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8932,6 +8996,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10034,7 +10106,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -10142,7 +10214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7932d0ef8d8195e429892e228865dd05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaSiguiente: Situacion0
+  escenaSiguiente: Situacion2
 --- !u!65 &1641980082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10703,7 +10775,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1818237921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11115,7 +11187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1890906192
 Transform:
   m_ObjectHideFlags: 0
@@ -11256,6 +11328,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cuboPrefab: {fileID: 1023332355350001075, guid: 06ddffdd5d9ed1c41861d7f3c4ed44b3, type: 3}
   numBolas: 0
+  canvas: {fileID: 1818237920}
+  tapa: {fileID: 1890906191}
 --- !u!1 &1929991461
 GameObject:
   m_ObjectHideFlags: 0
@@ -12077,6 +12151,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: tapa
+      value: 
+      objectReference: {fileID: 1890906191}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
