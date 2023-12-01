@@ -9,6 +9,7 @@ public class CambiarEscena : MonoBehaviour
 {
     public XRController controller = null;
     InputDevice device;
+    public string escenaSiguiente;
     // Start is called before the first frame update
     public static IEnumerator EsperarYCambiarDeEscena(string nombreEscena)
     {
@@ -19,6 +20,6 @@ public class CambiarEscena : MonoBehaviour
     public void saltarEscena()
     {
         Debug.Log("Saltar escena");
-        SceneManager.LoadScene("Situacion1");
+        SceneManager.LoadScene(escenaSiguiente);
     }
 }
