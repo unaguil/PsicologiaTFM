@@ -23,19 +23,16 @@ public class BolaTrucada : MonoBehaviour
         {
             //Debug.Log("Funciona");
             int cont = var.numBolas;
-            if (cont >= 1)
+            if (cont >= 4)
             {
                 Debug.Log("Funciona");
                 Vector3 vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));
-                while ((vectorAleatorio.x<fuerzaIntermediaMax && vectorAleatorio.x > fuerzaIntermediaMin) || (vectorAleatorio.y < fuerzaIntermediaMax && vectorAleatorio.y > fuerzaIntermediaMin))
-                {
-                    vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));
-                }
+                //while ((vectorAleatorio.x<fuerzaIntermediaMax && vectorAleatorio.x > fuerzaIntermediaMin) || (vectorAleatorio.y < fuerzaIntermediaMax && vectorAleatorio.y > fuerzaIntermediaMin))
+                //{
+                 //   vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));
+               // }
                 gameObject.GetComponent<Rigidbody>().AddForce(vectorAleatorio, ForceMode.Impulse);
                 Debug.Log(gameObject.GetComponent<Rigidbody>().GetAccumulatedForce());
-
-               // tapa.SetActive(true);
-                //ActivarInterfazRetardado();
                
             }
         }
