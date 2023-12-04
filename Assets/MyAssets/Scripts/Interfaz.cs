@@ -14,6 +14,7 @@ public class Interfaz : MonoBehaviour
     public GameObject preguntaActual;
     public GameObject siguientePregunta;
     public TMP_Text text;
+    public GameObject cambiarEscena;
 
     private float valorSlider;
 
@@ -40,7 +41,7 @@ public class Interfaz : MonoBehaviour
             {
                 text.text = e.Message;
             }
-            CambiarEscena.EsperarYCambiarDeEscena("Situacion2");
+            StartCoroutine(cambiarEscena.GetComponent<CambiarEscena>().EsperarYCambiarDeEscena("Situacion1"));
 
         }
     }
@@ -64,7 +65,7 @@ public class Interfaz : MonoBehaviour
         else
         {
             GuardarRegistro();
-            CambiarEscena.EsperarYCambiarDeEscena("Situacion2");
+            StartCoroutine(cambiarEscena.GetComponent<CambiarEscena>().EsperarYCambiarDeEscena("Situacion1"));
         }
     }
 
