@@ -41,7 +41,7 @@ public class Interfaz : MonoBehaviour
             {
                 text.text = e.Message;
             }
-            StartCoroutine(cambiarEscena.GetComponent<CambiarEscena>().EsperarYCambiarDeEscena("Situacion1"));
+            cambiarEscena.GetComponent<CambiarEscena>().saltarEscena();
 
         }
     }
@@ -65,7 +65,7 @@ public class Interfaz : MonoBehaviour
         else
         {
             GuardarRegistro();
-            StartCoroutine(cambiarEscena.GetComponent<CambiarEscena>().EsperarYCambiarDeEscena("Situacion1"));
+            cambiarEscena.GetComponent<CambiarEscena>().saltarEscena();
         }
     }
 

@@ -9,6 +9,7 @@ public class GeneradorDeCubos : MonoBehaviour
     public int numBolas = 0;
     public GameObject canvas;
     public GameObject tapa;
+    public int temporizador = 60;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -40,10 +41,11 @@ public class GeneradorDeCubos : MonoBehaviour
         GameObject nuevoCubo = Instantiate(cuboPrefab);
     }
 
+
     IEnumerator ActivarInterfazRetardado()
     {
         Debug.Log("Temporizador activado");
-        yield return new WaitForSeconds(90);
+        yield return new WaitForSeconds(temporizador);
         canvas.SetActive(true);
 
     }

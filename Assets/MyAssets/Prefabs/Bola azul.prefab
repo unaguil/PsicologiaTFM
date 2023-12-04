@@ -311,8 +311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43dddd28c047d5142a4f94882505ca1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuerzaMin: -3
-  fuerzaMax: 3
-  fuerzaIntermediaMin: 2
+  fuerzaMin: -2
+  fuerzaMax: 2
+  fuerzaIntermediaMin: -2
   fuerzaIntermediaMax: 2
   fuerza: {x: 50, y: 50, z: 50}

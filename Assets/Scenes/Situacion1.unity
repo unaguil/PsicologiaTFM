@@ -1008,8 +1008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   preguntaActual: {fileID: 874126561}
   siguientePregunta: {fileID: 0}
-  text: {fileID: 0}
-  cambiarEscena: {fileID: 0}
+  text: {fileID: 1875232318}
+  cambiarEscena: {fileID: 1641980079}
 --- !u!114 &211974795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4069,8 +4069,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   preguntaActual: {fileID: 874126561}
   siguientePregunta: {fileID: 0}
-  text: {fileID: 0}
-  cambiarEscena: {fileID: 0}
+  text: {fileID: 1875232318}
+  cambiarEscena: {fileID: 1641980079}
 --- !u!114 &811982048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5989,10 +5989,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bola azul (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 3334230918496169748, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7064380299406658091, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.103
@@ -6033,14 +6029,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: tapa
-      value: 
-      objectReference: {fileID: 1890906191}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 1818237920}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7066,8 +7054,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaIntermediaMin
-      value: -2
+      propertyPath: fuerzaMax
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: fuerzaMin
+      value: -1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9078,8 +9070,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   preguntaActual: {fileID: 874126561}
   siguientePregunta: {fileID: 0}
-  text: {fileID: 0}
-  cambiarEscena: {fileID: 0}
+  text: {fileID: 1875232318}
+  cambiarEscena: {fileID: 1641980079}
 --- !u!114 &1490108524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9783,7 +9775,7 @@ MonoBehaviour:
   preguntaActual: {fileID: 874126561}
   siguientePregunta: {fileID: 0}
   text: {fileID: 1310893886}
-  cambiarEscena: {fileID: 0}
+  cambiarEscena: {fileID: 1641980079}
 --- !u!114 &1593671857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11505,7 +11497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1818237921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11701,8 +11693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   preguntaActual: {fileID: 874126561}
   siguientePregunta: {fileID: 0}
-  text: {fileID: 0}
-  cambiarEscena: {fileID: 0}
+  text: {fileID: 1875232318}
+  cambiarEscena: {fileID: 1641980079}
 --- !u!114 &1847747563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12072,6 +12064,7 @@ MonoBehaviour:
   numBolas: 0
   canvas: {fileID: 1818237920}
   tapa: {fileID: 1890906191}
+  temporizador: 60
 --- !u!1 &1929991461
 GameObject:
   m_ObjectHideFlags: 0
