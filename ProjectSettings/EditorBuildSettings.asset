@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Situacion2.unity
     guid: 8eabf71c6d3a889499c6dbf2a1665cd1
+  - enabled: 0
+    path: Assets/Scenes/Situacion3.unity
+    guid: 45bc420777621b1448cddbd8e16e0bb5
+  - enabled: 0
+    path: Assets/Scenes/Situacion4.unity
+    guid: a62578ca6a5167e469fdd719e47aacb5
   - enabled: 1
     path: Assets/Scenes/Situacion3.unity
     guid: 45bc420777621b1448cddbd8e16e0bb5
