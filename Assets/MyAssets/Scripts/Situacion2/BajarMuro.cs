@@ -8,6 +8,7 @@ public class BajarMuro : MonoBehaviour
     public float tiempoDeEspera;
     public int vel;
     public GameObject parteRestaurante;
+    public GameObject canvas;
 
     public void Start()
     {
@@ -25,6 +26,8 @@ public class BajarMuro : MonoBehaviour
         } else
         {
             parteRestaurante.GetComponent<TeleportationArea>().enabled = true;
+            yield return new WaitForSeconds(5);
+            canvas.SetActive(true);
         }
     }
 

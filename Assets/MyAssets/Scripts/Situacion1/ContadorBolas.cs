@@ -29,7 +29,7 @@ public class GeneradorDeCubos : MonoBehaviour
             {
                 Debug.Log("Se va a activar el temporizador");
                 tapa.SetActive(true);
-                StartCoroutine(ActivarInterfazRetardado()); //Por qué hay que hacer aquí startCoroutine y otras veces no?
+                StartCoroutine(ActivarInterfazRetardado());
             }
         }
 

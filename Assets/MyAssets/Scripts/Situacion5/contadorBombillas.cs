@@ -8,8 +8,11 @@ public class contadorBombillas : MonoBehaviour
     public GameObject luz;
     public GameObject bombilla;
     public GameObject click;
+    public GameObject canvas;
     private float nuevaRot = 90.02f;
     private static int contador = 0;
+
+
 
     public void EncerderLuz()
     {
@@ -23,8 +26,11 @@ public class contadorBombillas : MonoBehaviour
 
         if (contador == 3)
         {
+            
             bombilla.SetActive(true);
             luz.SetActive(false);
+            canvas.SetActive(true);
+
         }      
     }
 
