@@ -7,11 +7,13 @@ public class ActivarFinalPlataforma : MonoBehaviour
     public GameObject player;
     public GameObject cambiaEscena;
 
-    public void OnCollisionEnter(Collision collision)
+    public void Update()
     {
-        if (collision.gameObject.name == "Main Camera")
+        //Debug.Log(player.transform.position.z);
+        if (player.transform.position.z > 1.6) 
         {
-            Debug.Log("Colisiona");
+            Debug.Log("CambiarEscena");
+            cambiaEscena.GetComponent<CambiarEscena>().saltarEscena();
         }
     }
 }
