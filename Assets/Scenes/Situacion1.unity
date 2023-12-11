@@ -5081,8 +5081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "TIENES UNA CEESTA DELANTE, A TU LADO EN EL\r\nSUELO TIENES UNA CESTA CON
-    10 PELOTAS. DEBES METERLAS EN LA CAJA\r\nPOR EL AGUJERO. \xBFLo has entendido?\u201D"
+  m_text: Cambiar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52e16f5d837a0e44bb474b79681f72be, type: 2}
   m_sharedMaterial: {fileID: 6309507552744277122, guid: 52e16f5d837a0e44bb474b79681f72be, type: 2}
@@ -7055,11 +7054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: fuerzaMax
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: fuerzaMin
-      value: -1.5
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

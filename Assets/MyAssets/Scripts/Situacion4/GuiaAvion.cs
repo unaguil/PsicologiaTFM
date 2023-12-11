@@ -39,7 +39,18 @@ public class GuiaAvion : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
+        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "Jelly Fish Net")
+        {
+            this.gameObject.SetActive(false);
+            plataformaFinal.SetActive(true);
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.gameObject.name);
+        if (other.gameObject.name == "Jelly Fish Net")
         {
             this.gameObject.SetActive(false);
             plataformaFinal.SetActive(true);
