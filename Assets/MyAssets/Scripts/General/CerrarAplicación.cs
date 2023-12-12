@@ -6,6 +6,7 @@ public class CerrarAplicación : MonoBehaviour
 {
     public void CloseApp()
     {
+        Estadisticas.GuardarEstadisticas();
         Application.Quit();
     }
 }
