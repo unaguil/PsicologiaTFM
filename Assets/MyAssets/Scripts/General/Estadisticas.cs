@@ -21,8 +21,10 @@ public class Estadisticas
         string path = Application.persistentDataPath+"/estadisticas.csv";
         Encoding encoding = Encoding.Unicode;
         StreamWriter sr = new StreamWriter(path, true, encoding);
+        
         foreach (string s in estadisticas)
         {
+            Debug.Log(s);
             sr.Write(s);
         }
         sr.Write("\n");

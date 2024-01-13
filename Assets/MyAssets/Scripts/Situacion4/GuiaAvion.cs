@@ -9,6 +9,7 @@ public class GuiaAvion : MonoBehaviour
     public GameObject[] objetivos;
     public float speed = 5f;
     public GameObject plataformaFinal;
+    public GameObject dronfalso;
 
     private int objetivoActual = 0;
 
@@ -44,6 +45,7 @@ public class GuiaAvion : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             plataformaFinal.SetActive(true);
+            dronfalso.SetActive(true);
         }
     }
 
@@ -54,6 +56,7 @@ public class GuiaAvion : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             plataformaFinal.SetActive(true);
+            dronfalso.SetActive(true);
         }
     }
 

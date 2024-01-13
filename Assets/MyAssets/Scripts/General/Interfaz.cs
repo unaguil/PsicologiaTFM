@@ -73,6 +73,6 @@ public class Interfaz : MonoBehaviour
     {
         Debug.Log(registro);
         Estadisticas.NuevaEstadistica(registro);
-        Estadisticas.GuardarEstadisticas();
+        //Estadisticas.GuardarEstadisticas();
     }
 }
