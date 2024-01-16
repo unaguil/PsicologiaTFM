@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectarColision : MonoBehaviour
 {
-    private Vector3 posicion = new Vector3(1f, 0f, -3f);
+    private Vector3 posicion = new Vector3(0.999995232f, 0f, -3.21700168f);
 
     public void OnCollisionEnter(Collision collision)
     {
