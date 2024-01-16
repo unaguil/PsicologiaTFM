@@ -9,10 +9,15 @@ public class ActivarFinalPlataforma : MonoBehaviour
 
     public void Update()
     {
-        //Debug.Log(player.transform.position.z);
-        if (player.transform.position.z > 1.6) 
+        ////Debug.Log(player.transform.position.z);
+        //if (player.transform.position.z > 1.6) 
+        //{
+        //    Debug.Log("CambiarEscena");
+        //    cambiaEscena.GetComponent<CambiarEscena>().saltarEscena();
+        //}
+
+        if (GetComponent<Collider>().bounds.Contains(player.transform.position))
         {
-            Debug.Log("CambiarEscena");
             cambiaEscena.GetComponent<CambiarEscena>().saltarEscena();
         }
     }
