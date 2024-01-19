@@ -9,6 +9,7 @@ public class BolaTrucada : MonoBehaviour
     public float fuerzaIntermediaMin;
     public float fuerzaIntermediaMax;
     public Vector3 fuerza;
+    public float velocidadMinimaParaDesviar;
 
     public void Prueba()
     {
@@ -17,13 +18,14 @@ public class BolaTrucada : MonoBehaviour
 
     public void Desviar()
     {
-        Debug.Log("Funciona");
+        Debug.Log(gameObject.GetComponent<Rigidbody>().velocity.sqrMagnitude);
+        //Debug.Log("Funciona");
         GeneradorDeCubos var = FindObjectOfType<GeneradorDeCubos>();
         if (var != null)
         {
             //Debug.Log("Funciona");
             int cont = var.numBolas;
-            if (cont >= 4)
+            if (cont >= 4 && GetComponent<Rigidbody>().velocity.sqrMagnitude > velocidadMinimaParaDesviar)
             {
                 Debug.Log("Funciona");
                 Vector3 vectorAleatorio = new Vector3(Random.Range(fuerzaMin, fuerzaMax), 0, Random.Range(fuerzaMin, fuerzaMax));

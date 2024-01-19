@@ -1175,18 +1175,6 @@ PrefabInstance:
       value: Bola verde
       objectReference: {fileID: 0}
     - target: {fileID: 7064380299406658091, guid: bf1785883f708ba439d9eaf24d39f382, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.10000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7064380299406658091, guid: bf1785883f708ba439d9eaf24d39f382, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.10000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7064380299406658091, guid: bf1785883f708ba439d9eaf24d39f382, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.10000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7064380299406658091, guid: bf1785883f708ba439d9eaf24d39f382, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.017
       objectReference: {fileID: 0}

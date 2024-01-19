@@ -5817,6 +5817,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: velocidadMinimaParaDesviar
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6841,22 +6845,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaMax
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaMin
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaIntermediaMax
-      value: -1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaIntermediaMin
-      value: -1.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7385,22 +7373,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7064380299406658091, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: tapa
-      value: 
-      objectReference: {fileID: 1890906191}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 1818237920}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaIntermediaMax
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137235157483322930, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
-      propertyPath: fuerzaIntermediaMin
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12030,8 +12002,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0837722, y: 0.52152175, z: 1.0680654}
-  m_Center: {x: 0.14786106, y: 0.22661024, z: 1.0019649}
+  m_Size: {x: 2.0670912, y: 0.52152175, z: 1.0680654}
+  m_Center: {x: 0.00607562, y: 0.22661024, z: 1.0019649}
 --- !u!4 &2033688977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5c17a65cfda8889449cd0231ed02e399, type: 3}
@@ -12203,6 +12175,10 @@ PrefabInstance:
     - target: {fileID: 3334230918496169748, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493215201456716908, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
+      propertyPath: m_Drag
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7064380299406658091, guid: f66603c7169b88f4c8bcedebed0787b9, type: 3}
       propertyPath: m_LocalPosition.x

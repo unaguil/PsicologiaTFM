@@ -117,7 +117,7 @@ Rigidbody:
   m_GameObject: {fileID: 3334230918496169748}
   serializedVersion: 4
   m_Mass: 0.25
-  m_Drag: 2
+  m_Drag: 0.1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -311,8 +311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43dddd28c047d5142a4f94882505ca1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuerzaMin: -2
-  fuerzaMax: 2
-  fuerzaIntermediaMin: -2
-  fuerzaIntermediaMax: 2
+  fuerzaMin: -0.5
+  fuerzaMax: 0.5
+  fuerzaIntermediaMin: 0
+  fuerzaIntermediaMax: 0
   fuerza: {x: 50, y: 50, z: 50}
+  velocidadMinimaParaDesviar: 0.2
