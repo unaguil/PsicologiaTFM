@@ -5266,7 +5266,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFC\xD3MO CREES QUE LO HAS HECHO?"
+  m_text: "\xBFC\xD3MO CREES QUE LO HAS HECHO EN ESTAS ULTIMAS ESCENAS?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52e16f5d837a0e44bb474b79681f72be, type: 2}
   m_sharedMaterial: {fileID: 6309507552744277122, guid: 52e16f5d837a0e44bb474b79681f72be, type: 2}
