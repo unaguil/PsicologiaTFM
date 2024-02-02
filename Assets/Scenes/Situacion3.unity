@@ -1150,7 +1150,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2147483649
+    m_Bits: 3
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -2703,6 +2703,7 @@ MonoBehaviour:
   - {fileID: 868119338}
   fuerza: 50
   cambiaEscena: {fileID: 2006901456}
+  velocidadMinima: 1
 --- !u!1 &1395108305
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Situacion1.unity
     guid: 38406a2316e1be148bf59a34cbd53cbe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Situacion2.unity
     guid: 8eabf71c6d3a889499c6dbf2a1665cd1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Situacion3.unity
     guid: 45bc420777621b1448cddbd8e16e0bb5
   - enabled: 0
@@ -26,10 +26,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SituacionFInal.unity
     guid: 50909f7bfa67a2542a7ea88022a5321c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Intermedio1.5.unity
     guid: bda6428b84d4c6b4484d77f171954a1a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Intermedio3.5.unity
     guid: cc430aeaecf6b334e8f63eb584afbc0f
   m_configObjects:
