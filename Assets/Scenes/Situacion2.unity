@@ -4839,7 +4839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7932d0ef8d8195e429892e228865dd05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaSiguiente: Situacion3
+  escenaSiguiente: Intermedio3.5
   canvas: {fileID: 1490255715}
   tmp: {fileID: 1490255713}
 --- !u!65 &1161386932

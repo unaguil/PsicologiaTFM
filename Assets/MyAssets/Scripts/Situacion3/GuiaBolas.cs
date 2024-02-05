@@ -11,6 +11,7 @@ public class GuiaBolas : MonoBehaviour
 	public GameObject[] objetivos;
 	public float fuerza;
 	public GameObject cambiaEscena;
+	public GameObject cuestionario;
 
 	public float velocidadMinima;
 	public float maximunAngle;
@@ -101,7 +102,9 @@ public class GuiaBolas : MonoBehaviour
 				}
 				if (!algunoActivo) 
 				{
-					cambiaEscena.GetComponent<CambiarEscena>().saltarEscena();
+					//cambiaEscena.GetComponent<CambiarEscena>().saltarEscena();
+					cuestionario.SetActive(true);
+
 				}
 				yield break;
 			}
